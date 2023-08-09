@@ -28,3 +28,15 @@ for number in list_of_numbers:
 print('Liczby pierwsze')
 print(list_of_prime_numbers)
 print('')
+
+#zadanie 3
+
+print('Zadanie 3')
+print('')
+weekdays = ['pon','śro','pią','sob']
+weekdays.insert(1,'wto')
+weekdays.insert(3,'czw')
+weekdays.append('nie')
+print('Pełna lista dni tygodnia')
+print(weekdays)
+print('')
