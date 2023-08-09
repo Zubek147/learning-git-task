@@ -40,3 +40,27 @@ weekdays.append('nie')
 print('Pełna lista dni tygodnia')
 print(weekdays)
 print('')
+
+
+#zadanie 4
+print('Zadanie 4')
+print('')
+a = '•włącz czajnik'
+b = '•znajdź opakowanie herbaty'
+c = '•zalej herbatę'
+d = '•nalej wody do czajnika'
+e = '•wyjmij kubek'
+f = '•włóż herbatę do kubka'    
+print('Sekwencja nieposortowana')
+sequence = [a, b, c, d, e, f]
+print(sequence)
+print('')
+del sequence[0:3]
+sequence.insert(1,a)
+sequence.insert(3,b)
+sequence.append(c)
+print('Sekwencja posortowana')
+print(sequence)
+
+
+###Specjalne pozdrowienia dla mentora z teamu Kodilla ;)
